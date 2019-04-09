@@ -30,7 +30,7 @@ end
 
 def hit?(card_total)
   prompt_user
-  inout = get_user_input
+  input = get_user_input
   if input == "s"
     card_total
   elsif input == "h"
